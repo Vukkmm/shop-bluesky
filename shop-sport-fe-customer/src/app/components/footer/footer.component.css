@@ -1,0 +1,31 @@
+#myBtn2 {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 30px;
+	background-color: #00cc00;
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	opacity: 0.9;
+}
+
+#myBtn2:hover {
+	
+        transform: scale(1.5);
+            /* Safari & Google Chrome */
+            -webkit-transform: scale(1.5);
+            /* Mozilla Firefox */
+            -moz-transform: scale(1.5); 
+            /* Opera */
+            -o-transform: scale(1.5);
+            /* IE 9 */
+            -ms-transform: scale(1.5);
+        cursor: pointer; 
+    
+}

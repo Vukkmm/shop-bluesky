@@ -1,0 +1,248 @@
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h2 class="modal-title m-0">Sửa sản phẩm</h2>
+  </div>
+  <div class="modal-body p-4">
+    <form [formGroup]="postForm" class="row">
+      <input type="hidden" formControlName="productId" />
+      <input type="hidden" formControlName="status" />
+      <input type="hidden" formControlName="sold" />
+      <div class="form-group col-6">
+        <label for="name">Tên sản phẩm</label>
+        <input
+          type="text"
+          id="name"
+          [ngClass]="{
+            'is-invalid':
+              postForm.get('name')?.touched && postForm.get('name')?.invalid
+          }"
+          class="form-control"
+          formControlName="name"
+        />
+        <small class="invalid-feedback">Tên sản phẩm không hợp lệ</small>
+      </div>
+      <div class="form-group col-6">
+        <label for="branch">Thương hiệu</label>
+        <input
+          type="text"
+          id="branch"
+          [ngClass]="{
+            'is-invalid':
+              postForm.get('branch')?.touched && postForm.get('branch')?.invalid
+          }"
+          class="form-control"
+          formControlName="branch"
+        />
+        <small class="invalid-feedback"
+          >Thương hiệu sản phẩm không hợp lệ</small
+        >
+      </div>
+      <div class="form-group col-6">
+        <label for="material">Chất liệu</label>
+        <input
+          type="text"
+          id="material"
+          [ngClass]="{
+            'is-invalid':
+              postForm.get('material')?.touched &&
+              postForm.get('material')?.invalid
+          }"
+          class="form-control"
+          formControlName="material"
+        />
+        <small class="invalid-feedback">Chất liệu không hợp lệ</small>
+      </div>
+      <div class="form-group col-6">
+        <label for="price">Giá</label>
+        <div class="input-group">
+          <input
+            type="number"
+            id="price"
+            [ngClass]="{
+              'is-invalid':
+                postForm.get('price')?.touched && postForm.get('price')?.invalid
+            }"
+            class="form-control"
+            formControlName="price"
+          />
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">VNĐ</span>
+          </div>
+          <small class="invalid-feedback">Giá sản phẩm không hợp lệ</small>
+        </div>
+      </div>
+      <div class="form-group col-6">
+        <label for="quantity">Số lượng</label>
+        <input
+          type="number"
+          id="quantity"
+          [ngClass]="{
+            'is-invalid':
+              postForm.get('quantity')?.touched &&
+              postForm.get('quantity')?.invalid
+          }"
+          class="form-control"
+          formControlName="quantity"
+          max="1000000"
+        />
+        <small class="invalid-feedback">Số lượng không hợp lệ</small>
+      </div>
+      <div class="form-group col-6">
+        <label for="discount">Khuyến mãi</label>
+        <div class="input-group">
+          <input
+            type="number"
+            id="discount"
+            [ngClass]="{
+              'is-invalid':
+                postForm.get('discount')?.touched &&
+                postForm.get('discount')?.invalid
+            }"
+            class="form-control"
+            formControlName="discount"
+            max="100"
+            min="0"
+          />
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">%</span>
+          </div>
+          <small class="invalid-feedback">Khuyến mãi không hợp lệ</small>
+        </div>
+      </div>
+      <div class="col-12 p-0 d-flex">
+        <div class="form-group col-6">
+          <label for="category">Danh mục sản phẩm</label>
+          <select
+            class="custom-select"
+            id="category"
+            formControlName="categoryId"
+          >
+            <option *ngFor="let item of categories" [value]="item.categoryId">
+              {{ item.categoryName }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group col-6">
+          <label for="size">Size</label>
+          <div class="input-group">
+            <input
+              type="text"
+              id="size"
+              class="form-control"
+              formControlName="size"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="form-group col-12">
+        <label for="description">Mô tả sản phẩm</label>
+        <textarea
+          type="text"
+          id="description"
+          [ngClass]="{
+            'is-invalid':
+              postForm.get('description')?.touched &&
+              postForm.get('description')?.invalid
+          }"
+          class="form-control"
+          rows="6"
+          formControlName="description"
+        ></textarea>
+        <small class="invalid-feedback">Không hợp lệ</small>
+      </div>
+      <div class="col-12 text-center" style="width: 100px">
+        <!-- <img [src]="urlProduct" width="150px"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+                    alt="Hình sản phẩm"> -->
+        <!-- <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="" name="image"
+                        (change)="onFileSelectImage($event)">
+                    <label class="custom-file-label" for="customFile" style="font-size: 14px;">Chọn ảnh sản phẩm</label>
+                </div> -->
+        <img
+          [src]="image"
+          width="150px"
+          onerror="if (this.src != 'error.jpg') this.setAttribute('class', 'd-none');"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+          alt="Hình sản phẩm"
+        />
+        <div class="custom-file">
+          <input
+            type="file"
+            class="custom-file-input"
+            id=""
+            name="image"
+            (change)="onFileSelect1($event)"
+            accept=".jpg, .jpeg, .png"
+          />
+          <label
+            class="custom-file-label"
+            for="customFile"
+            style="font-size: 14px"
+            >Chọn ảnh sản phẩm</label
+          >
+        </div>
+        <img
+          [src]="image1"
+          style="width: 100px; height: 100px; margin-right: 5px"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+          alt="Hình sản phẩm"
+        />
+        <img
+          [src]="image2"
+          style="width: 100px; height: 100px; margin-right: 5px"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+          alt="Hình sản phẩm"
+        />
+        <img
+          [src]="image3"
+          style="width: 100px; height: 100px; margin-right: 5px"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+          alt="Hình sản phẩm"
+        />
+        <img
+          [src]="image4"
+          style="width: 100px; height: 100px; margin-right: 5px"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+          alt="Hình sản phẩm"
+        />
+        <img
+          [src]="image5"
+          style="width: 100px; height: 100px; margin-right: 5px"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+          alt="Hình sản phẩm"
+        />
+        <div class="custom-file">
+          <input
+            type="file"
+            class="custom-file-input"
+            id=""
+            name="image"
+            (change)="onFileSelect($event)"
+            accept=".jpg, .jpeg, .png"
+            multiple="multiple"
+          />
+          <label
+            class="custom-file-label"
+            for="customFile"
+            style="font-size: 14px"
+            >Chọn ảnh sản phẩm</label
+          >
+        </div>
+      </div>
+
+      <button
+        mat-raised-button
+        color="primary"
+        class="col-2 m-3"
+        [disabled]="postForm?.invalid"
+        (click)="update()"
+      >
+        Cập nhật
+      </button>
+    </form>
+  </div>
+</ng-template>
+<a style="color: steelblue; cursor: pointer" (click)="open(content)"
+  ><i class="fas fa-edit"></i
+></a>

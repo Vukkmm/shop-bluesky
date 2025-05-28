@@ -1,0 +1,222 @@
+<div class="ps-page--single" id="contact-us">
+  <div class="ps-breadcrumb">
+    <div class="ps-container">
+      <ul class="breadcrumb">
+        <li><a [routerLink]="['/home']">Trang chủ</a></li>
+        <li>Liên hệ</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 30px">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25942.674301726493!2d105.64357393440419!3d20.9910985459184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313451650dfdc6d5%3A0xceb0f9d16f7b7a79!2zVsOibiBDw7RuLCBIb8OgaSDEkOG7qWMsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1745120240728!5m2!1svi!2s"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+  <div class="ps-contact-info">
+    <div class="container">
+      <div class="ps-section__header">
+        <h3>Liên hệ cho chúng tôi khi có bất kì thắc mắc nào</h3>
+      </div>
+      <div class="ps-section__content">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="ps-block--contact-info">
+              <h4>Liên hệ trực tiếp</h4>
+              <p>
+                <a
+                  href="mailto:bluesky.shopsport@gmail.com?subject=Hỗ trợ khách hàng&body=Message"
+                  ><span class="__cf_email__"
+                    >[bluesky.shopsport@gmail.com]</span
+                  ></a
+                ><span><a href="tel:+8497981415">(+84) 9715 497 770</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="ps-block--contact-info">
+              <h4>Trụ sở chính</h4>
+              <p><span>Vân Côn, Hoài Đức, Hà Nội</span></p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="ps-block--contact-info">
+              <h4>Làm việc với chúng tôi</h4>
+              <p>
+                <span>Gửi CV của bạn đến email của chúng tôi:</span
+                ><a
+                  href="mailto:bluesky.shopsport@gmail.com?subject=Hỗ trợ khách hàng&body=Message"
+                  ><span class="__cf_email__"
+                    >[bluesky.shopsport@gmail.com]</span
+                  ></a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="ps-block--contact-info">
+              <h4>Dịch vụ khách hàng</h4>
+              <p>
+                <a
+                  href="mailto:bluesky.shopsport@gmail.com?subject=Hỗ trợ khách hàng&body=Message"
+                  ><span class="__cf_email__"
+                    >[bluesky.shopsport@gmail.com]</span
+                  ></a
+                ><span><a href="tel:+8497981415">(+84) 347196883</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="ps-block--contact-info">
+              <h4>Quan hệ truyền thông</h4>
+              <p>
+                <a
+                  href="mailto:bluesky.shopsport@gmail.com?subject=Hỗ trợ khách hàng&body=Message"
+                  ><span class="__cf_email__"
+                    >[bluesky.shopsport@gmail.com]</span
+                  ></a
+                ><span><a href="tel:+8497981415">(+84) 347196883</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="ps-block--contact-info">
+              <h4>Hỗ trợ nhà cung cấp</h4>
+              <p>
+                <a
+                  href="mailto:bluesky.shopsport@gmail.com?subject=Hỗ trợ khách hàng&body=Message"
+                  ><span class="__cf_email__"
+                    >[bluesky.shopsport@gmail.com]</span
+                  ></a
+                ><span><a href="tel:+8497981415">(+84) 347196883</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ps-contact-form">
+    <div class="container">
+      <form class="ps-form--contact-us" [formGroup]="contactForm">
+        <h3>Liên hệ</h3>
+        <div class="row">
+          <input type="hidden" formControlName="id" />
+          <input type="hidden" formControlName="status" />
+          <input type="hidden" formControlName="trash" />
+          <input type="hidden" formControlName="date" />
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <!-- <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Tên *" id="name" [value]="contact.name">
+                        </div> -->
+            <div class="form-group">
+              <input
+                class="form-control"
+                type="text"
+                formControlName="name"
+                [ngClass]="{
+                  'is-invalid':
+                    contactForm.get('name')?.touched &&
+                    contactForm.get('name')?.invalid
+                }"
+                placeholder="Họ và tên"
+              />
+              <small class="invalid-feedback"
+                >Hãy nhập họ và tên của bạn!</small
+              >
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <!-- <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Email *" id="email"  [value]="contact.email">
+                        </div> -->
+            <div class="form-group">
+              <input
+                class="form-control"
+                type="text"
+                formControlName="email"
+                [ngClass]="{
+                  'is-invalid':
+                    contactForm.get('email')?.touched &&
+                    contactForm.get('email')?.invalid
+                }"
+                placeholder="Email"
+              />
+              <small class="invalid-feedback">Hãy nhập email của bạn!</small>
+            </div>
+          </div>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <!-- <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Tiêu đề *" id="title" [value]="contact.title">
+                        </div> -->
+            <div class="form-group">
+              <input
+                class="form-control"
+                type="text"
+                formControlName="title"
+                [ngClass]="{
+                  'is-invalid':
+                    contactForm.get('title')?.touched &&
+                    contactForm.get('title')?.invalid
+                }"
+                placeholder="Tiêu đề"
+              />
+              <small class="invalid-feedback">Hãy nhập tiêu đề!</small>
+            </div>
+          </div>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <!-- <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Nội dung tin nhắn" id=""content [value]="contact.content"></textarea>
+                        </div> -->
+            <div class="form-group">
+              <input
+                class="form-control"
+                type="text"
+                formControlName="content"
+                [ngClass]="{
+                  'is-invalid':
+                    contactForm.get('content')?.touched &&
+                    contactForm.get('content')?.invalid
+                }"
+                placeholder="Nội dung tin nhắn"
+              />
+              <small class="invalid-feedback"
+                >Hãy nhập nội dung tin nhắn!</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="form-group submit">
+          <button class="ps-btn" (click)="send()">Gửi</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- <div class="ps-newsletter">
+    <div class="container">
+        <form class="ps-form--newsletter" action="#">
+            <div class="row">
+                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="ps-form__left">
+                        <h3>Bản tin</h3>
+                        <p>Đăng ký để nhận thông tin về sản phẩm và phiếu giảm giá</p>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="ps-form__right">
+                        <div class="form-group--nest">
+                            <input class="form-control" type="email" placeholder="Địa chỉ Email">
+                            <button class="ps-btn">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div> -->

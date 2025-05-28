@@ -1,0 +1,18 @@
+.font {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.timeship th{
+    background-color: #007bff;
+    height: 40px;
+    color: white;
+    padding-left: 5px;
+    font-family: "Work Sans", sans-serif;  
+}
+.timeship td {
+    background-color: #f8f9fa;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

@@ -1,0 +1,611 @@
+<div class="ps-breadcrumb">
+  <div class="ps-container">
+    <ul class="breadcrumb">
+      <li><a [routerLink]="['/home']">Trang chủ</a></li>
+      <li><a [routerLink]="['/all-product']">Sản phẩm</a></li>
+      <li>Chi tiết sản phẩm</li>
+    </ul>
+  </div>
+</div>
+<div class="row" style="min-height: 700px !important" *ngIf="isLoading">
+  <div
+    class="spinner-border text-success"
+    role="status"
+    style="margin: auto; width: 6em; height: 6em"
+  ></div>
+</div>
+<div class="ps-page--product" *ngIf="!isLoading">
+  <div class="ps-container">
+    <div class="ps-page__container">
+      <div class="ps-page__left">
+        <div class="ps-product--detail ps-product--fullwidth">
+          <div class="ps-product__header">
+            <div class="ps-product__thumbnail" style="margin-left: -70px">
+              <figure>
+                <div class="ps-wrapper">
+                  <!-- <div class="item"> -->
+                  <a>
+                    <img class="imgproduct" [src]="product.image" alt="" />
+                  </a>
+                  <!-- </div> -->
+                  <div class="ps-product__gallery">
+                    <ngx-slick-carousel
+                      [config]="slideConfig1"
+                      style="height: 150px; width: 380px; margin-top: 6px"
+                      class="sliderbutton"
+                    >
+                      <div
+                        ngxSlickItem
+                        *ngFor="
+                          let item of images
+                            | paginate : { itemsPerPage: 8, currentPage: 0 }
+                        "
+                        class="slide"
+                      >
+                        <a class="hover">
+                          <img
+                            class="imgproduct"
+                            [src]="item.file"
+                            alt=""
+                            style="
+                              justify-content: space-between;
+                              width: 125px;
+                              height: 125px;
+                              float: left;
+                              margin-right: 2.6px;
+                              margin-top: 6px;
+                              border: 1px solid #007bff;
+                            "
+                        /></a>
+                      </div>
+                    </ngx-slick-carousel>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="ps-product__info">
+              <h1>{{ product.name }}</h1>
+              <div
+                class="ps-product__desc"
+                style="display: flex; justify-content: space-between"
+              >
+                <div>
+                  <!-- <ngb-rating [rate]="getAvgRate(product.productId)" [starTemplate]="t"
+                                        [readonly]="true" [max]="5" title="{{getAvgRate(product.productId)}} sao">
+                                    </ngb-rating> -->
+                  <ngb-rating
+                    [rate]="getAvgRate(product.productId)"
+                    [starTemplate]="t"
+                    [readonly]="true"
+                    [max]="5"
+                    title="{{ getAvgRate(product.productId) }} sao"
+                  >
+                  </ngb-rating>
+                  <!-- ({{countRate}} đánh giá) -->
+                  <!-- <ngb-rating [rate]="getAvgRate(product.productId)" [starTemplate]="t"
+                                        [readonly]="true" [max]="5" title="{{getAvgRate(product.productId)}} sao">
+                                    </ngb-rating> -->
+                  {{ countRate }} đánh giá |
+                </div>
+                <div>
+                  <a href="javascript:void(0);"
+                    ><i style="color: #007bff" class="icon-bag2"></i
+                  ></a>
+                  {{ product.sold }} lượt mua |
+                </div>
+                <div class="ps-product__actions">
+                  <a
+                    href="javascript:void(0);"
+                    (click)="toggleLike(product.productId)"
+                    ><i style="color: #007bff" class="icon-heart"></i
+                  ></a>
+                  {{ totalLike }} lượt thích
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <p>
+                Trạng thái:
+                <span class="ps-tag ps-tag--in-stock">{{
+                  product.quantity > 0
+                    ? "Còn hàng"
+                    : "Hết
+                                    hàng"
+                }}</span>
+              </p>
+              <p class="ps-product__price sale">
+                <del *ngIf="product.discount != 0">{{
+                  product.price | currency : "VND"
+                }}</del>
+                {{
+                  product.price * (1 - product.discount / 100)
+                    | currency : "VND"
+                }}
+              </p>
+              <p>
+                Thương hiệu: <span>{{ product.branch }}</span>
+              </p>
+              <p>
+                Chất liệu: <span>{{ product.material }}</span>
+              </p>
+              <div class="size d-flex align-items-center">
+                <div>
+                  <p>Kích cỡ:</p>
+                </div>
+                <div class="mt-3 ml-3">
+                  <ul
+                    class="list-group d-flex flex-row"
+                    style="list-style-type: none"
+                  >
+                    <li *ngFor="let i of sizeArray">
+                      <label>
+                        <input
+                          type="radio"
+                          name="kichco"
+                          [(ngModel)]="size"
+                          value="{{ i }}"
+                        />{{ i }}
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product__details__quantity" style="margin-top: 10px">
+                <p style="float: left; margin-right: 10px">Số lượng:</p>
+                <div class="quantity">
+                  <div class="pro-qty">
+                    <span class="dec qtybtn" (click)="subtractQuantity()"
+                      >-</span
+                    >
+                    <input
+                      type="number"
+                      [(ngModel)]="quantity"
+                      onkeyup="if(this.value<=0) {this.value=1}"
+                      name="quantity"
+                    />
+                    <span class="inc qtybtn" (click)="plusQuantity()">+</span>
+                  </div>
+                  <p style="margin-left: 230px; margin-top: -40px">
+                    {{ product.quantity }} sản phẩm sẵn có
+                  </p>
+                </div>
+                <p style="width: 500px; color: red">{{ error }}</p>
+              </div>
+              <div class="ps-product__shopping" style="margin-top: 30px">
+                <button
+                  type="button"
+                  class="ps-btn ps-btn--black"
+                  href="javascript:void(0);"
+                  *ngIf="product.quantity > 0"
+                  (click)="
+                    addCart(
+                      product.productId,
+                      product.price * (1 - product.discount / 100)
+                    )
+                  "
+                >
+                  Thêm vào giỏ hàng
+                </button>
+              </div>
+              <div class="ps-product__shopping" style="margin-top: -50px">
+                <button
+                  type="button"
+                  class="ps-btn ps-btn--black"
+                  href="javascript:void(0);"
+                  *ngIf="product.quantity < 1"
+                >
+                  HẾT HÀNG
+                </button>
+              </div>
+              <div *ngIf="product.quantity < 1" class="circle"></div>
+              <p *ngIf="product.quantity < 1" class="font">Hết Hàng</p>
+            </div>
+          </div>
+          <div>
+            <ul class="ps-tab-list">
+              <li class="active">
+                <a href="javascript:void(0);">MÔ TẢ SẢN PHẨM</a>
+              </li>
+            </ul>
+            <div class="title1">
+              <p class="sao"><i class="fa fa-star"></i>THÔNG TIN SẢN PHẨM</p>
+              <div class="ps-tab active" id="tab-1">
+                <p>{{ product.description }}</p>
+              </div>
+            </div>
+            <div class="title1">
+              <p class="sao"><i class="fa fa-star"></i>CÁCH BẢO QUẢN</p>
+              <div>
+                <p>
+                  - Khuyến khích giặt tay, sử dụng xà phòng nhẹ.<br />
+                  - Nên phân loại, giặt riêng: đồ màu và đồ trắng.<br />
+                  - Phơi sản phẩm tại chỗ mát, tráng ánh nắng trực tiếp.<br />
+                  - Nên sử dụng bàn là hơi nước để là, ủi sản phẩm. - Ngâm trong
+                  nước 30 phút, không dùng xà phòng, rủ nhẹ với nước trong lần
+                  giặt đầu tiên.
+                </p>
+                <p></p>
+              </div>
+            </div>
+            <div class="title1">
+              <p class="sao">
+                <i class="fa fa-star"></i>THAM KHẢO CÁCH CHỌN SIZE ĐỐI VỚI CÁC
+                SẢN PHẨM GIÀY: Kích thước chân(cm)
+              </p>
+              <div>
+                <p>
+                  Size 36: 22 cm<br />
+                  Size 37: 23 cm<br />
+                  Size 38: 23,5 cm<br />
+                  Size 39: 24 cm<br />
+                  Size 40: 24,5 cm<br />
+                  Size 41: 25 cm<br />
+                  Size 42: 25,5 cm<br />
+                  Size 43: 26 cm
+                </p>
+                <p class="sao">
+                  <i class="fa fa-star"></i> THAM KHẢO CÁCH CHỌN SIZE ĐỐI VỚI
+                  CÁC SẢN PHẨM QUẦN ÁO: Cân nặng (kg)
+                </p>
+                <div>
+                  <p>
+                    Size S: Dưới 50 kg<br />
+                    Size M: 50 - 60 kg<br />
+                    Size L: 60 - 70 kg<br />
+                    Size XL: 70 - 80 kg<br />
+                    Size XXL: Trên 80 kg
+                  </p>
+                </div>
+
+                <p>
+                  Sản phẩm được thiết kế độc quyền bởi thương hiệu thời trang
+                  Running với hệ thống bán hàng rộng khắp nơi trên toàn quốc
+                  cùng thương hiệu uy tín, sản phẩm chất lượng mang lại sự êm ái
+                  cho người sử dụng.
+                </p>
+              </div>
+            </div>
+            <div class="title1">
+              <p class="sao"><i class="fa fa-star"></i>LƯU Ý</p>
+              <div>
+                <p>
+                  - Bảng size chi mang tính chất tham khảo, tùy thuộc vào bộ môn
+                  thể thao, loại bàn chân sẽ có sự chênh lệchh nhất định. Nếu
+                  khách hàng mua sản phẩm lần đầu tiên hãy inbox shop để tư vấn
+                  kỹ hơn.<br />
+                  - Màu sắc vải/ sản phẩm có thể sẽ chênh lệch thực tế một phần
+                  nhỏ, do ảnh hưởng về độ chênh lệch màu của ánh sáng nhưng vẫn
+                  đảm bảo chất lượng<br />
+                  - Nếu có bất kì khiếu nại cần BlueSky hỗ trợ về sản phẩm, khi
+                  mở sản phẩm khách hàng vui lòng quay lại video quá trình mở
+                  sản phẩm để được đảm bảo 100% đổi lại sản phẩm mới nếu sản
+                  phẩm bị lỗi.<br />
+                  - Hãy tặng shop 5 sao sau khi khách hàng nhận được sản phẩm để
+                  hưởng thêm nhiều ưu đãi hơn nhé.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="font-size: 14px">
+            <ul class="ps-tab-list">
+              <li class="active">
+                <a href="javascript:void(0);">ĐÁNH GIÁ SẢN PHẨM</a>
+              </li>
+            </ul>
+            <div class="ps-tab active" id="tab-1">
+              <div class="table-responsive">
+                <p *ngIf="rates.length == 0" style="text-decoration: underline">
+                  Sản phẩm này chưa có đánh giá nào.
+                </p>
+                <div class="row">
+                  <div class="col-10">
+                    <table
+                      class="table table-bordered ps-table ps-table--specification"
+                      style="border-collapse: collapse"
+                    >
+                      <tbody>
+                        <tr
+                          *ngFor="
+                            let item of rates
+                              | paginate
+                                : { itemsPerPage: itemsComment, currentPage: 1 }
+                          "
+                        >
+                          <td
+                            style="
+                              width: 100px;
+                              border-color: white;
+                              border-bottom: 1px solid gainsboro;
+                            "
+                          >
+                            <a [href]="item.user.image" style="float: left">
+                              <img
+                                [src]="item.user.image"
+                                alt=""
+                                style="
+                                  width: 80px;
+                                  height: 80px;
+                                  border-radius: 50%;
+                                "
+                            /></a>
+                            <div>
+                              <h5>
+                                <a>{{ item.user.name }}</a
+                                ><br />
+                              </h5>
+                              <h5>
+                                <ngb-rating
+                                  class="ml-2"
+                                  [(rate)]="item.rating"
+                                  title="{{ item.rating }} sao"
+                                  [starTemplate]="t"
+                                  [readonly]="true"
+                                  [max]="5"
+                                >
+                                </ngb-rating>
+                              </h5>
+                              <h5>
+                                <span style="color: #666"
+                                  >{{
+                                    item.rateDate
+                                      | date
+                                        : "dd-MM-yyy
+                                                                    hh:mm"
+                                  }}
+                                  | Phân loại: {{ item.orderDetail.size }}</span
+                                >
+                              </h5>
+                              <h5>
+                                <p
+                                  style="
+                                    color: black;
+                                    font-size: 14x;
+                                    margin-left: 80px;
+                                  "
+                                >
+                                  {{ item.comment }}
+                                </p>
+                              </h5>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-2" *ngIf="rates.length != 0">
+                    <div class="padding-right">
+                      <h5>Hiển thị:</h5>
+                      <select
+                        class="product-short-select custom-select ml-auto"
+                        style="font-size: 14px"
+                        [(ngModel)]="itemsComment"
+                        (change)="setItemsComment(itemsComment)"
+                      >
+                        <option selected value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="100">30</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ps-page__right">
+        <aside class="widget widget_product widget_features">
+          <p><i class="icon-network"></i> Vận chuyển toàn quốc</p>
+          <p>
+            <i class="icon-3d-rotate"></i> Hoàn trả miễn phí trong 7 ngày nếu đủ
+            điều kiện
+          </p>
+          <p>
+            <i class="icon-receipt"></i> Nhà cung cấp đưa ra hóa đơn cho sản
+            phẩm này
+          </p>
+          <p>
+            <i class="icon-credit-card"></i> Thanh toán trực tuyến hoặc khi nhận
+            hàng
+          </p>
+        </aside>
+        <aside>
+          <table
+            style="
+              width: 100%;
+              height: 100px;
+              border: 1px dotted;
+              margin-top: -20px;
+            "
+          >
+            <tr style="background-color: #007bff">
+              <p style="margin-left: 5px; color: white">
+                Khuyến mại đặc biệt (số lượng có hạn):
+              </p>
+            </tr>
+            <tr>
+              <p style="margin-left: 15px">
+                Giảm 15% khi mua hàng trực tiếp tại cửa hàng
+              </p>
+              <p style="margin-left: 15px">
+                Miễn phí vận chuyển với đơn hàng trên 10 triệu đồng
+              </p>
+            </tr>
+          </table>
+        </aside>
+      </div>
+    </div>
+
+    <div class="row" *ngIf="!isLoading">
+      <div class="ps-section--default">
+        <div
+          class="ps-section__header"
+          style="
+            width: 100%;
+            height: 50px;
+            padding-top: 8px;
+            background-color: #e3e3e3;
+            line-height: 70px;
+          "
+        >
+          <h3 style="margin-left: 5px; margin-top: 5px">SẢN PHẨM LIÊN QUAN</h3>
+        </div>
+        <div class="ps-section__content">
+          <ngx-slick-carousel
+            class="carousel"
+            #slickModal="slick-carousel"
+            [config]="slideConfig"
+          >
+            <div
+              ngxSlickItem
+              *ngFor="
+                let item of products
+                  | paginate : { itemsPerPage: 8, currentPage: 0 }
+              "
+              class="slide"
+            >
+              <div class="ps-product">
+                <div class="ps-product__thumbnail">
+                  <a href="javascript:void(0);">
+                    <!-- <img [src]="getImageByProduct(item.imageBase64)" [routerLink]="['/product-detail/'+item.productId]"
+                                            alt="" /> -->
+                    <img
+                      [src]="item.image"
+                      [routerLink]="['/product-detail/' + item.productId]"
+                      alt=""
+                    />
+                  </a>
+                  <div class="ps-product__badge">-{{ item.discount }}%</div>
+                  <ul class="ps-product__actions">
+                    <li *ngIf="item.quantity > 0">
+                      <a
+                        href="javascript:void(0);"
+                        title="Thêm giỏ hàng"
+                        (click)="
+                          addCart1(
+                            item.productId,
+                            item.price * (1 - item.discount / 100)
+                          )
+                        "
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        ><i class="icon-bag2"></i
+                      ></a>
+                    </li>
+                    <li *ngIf="item.quantity < 1">
+                      <a
+                        href="javascript:void(0);"
+                        title="Hết hàng"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        ><i class="icon-bag2"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        [routerLink]="['/product-detail/' + item.productId]"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Xem Chi Tiết"
+                        ><i class="icon-eye"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0);"
+                        (click)="toggleLike(item.productId)"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Yêu Thích"
+                        ><i class="icon-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="ps-product__container">
+                  <a class="ps-product__vendor" href="javascript:void(0);">
+                    <span> {{ item.category.categoryName }}</span>
+                  </a>
+                  <div class="ps-product__content">
+                    <a
+                      class="ps-product__title"
+                      [routerLink]="['/product-detail/' + item.productId]"
+                      >{{ item.name }}</a
+                    >
+                    <div
+                      class="ps-product__desc"
+                      *ngIf="getAvgRatesp(item.productId) > 0"
+                    >
+                      <ngb-rating
+                        [rate]="getAvgRatesp(item.productId)"
+                        [starTemplate]="t"
+                        [readonly]="true"
+                        [max]="5"
+                        title="{{ getAvgRatesp(item.productId) }} sao"
+                      >
+                      </ngb-rating>
+                      ({{ countRate }} đánh giá)
+                    </div>
+                    <p class="ps-product__price sale">
+                      <del *ngIf="item.discount != 0">{{
+                        item.price | currency : "VND"
+                      }}</del>
+                      {{
+                        item.price * (1 - item.discount / 100)
+                          | currency : "VND"
+                      }}
+                    </p>
+                  </div>
+                  <div class="ps-product__content hover">
+                    <a
+                      class="ps-product__title"
+                      [routerLink]="['/product-detail/' + item.productId]"
+                      >{{ item.name }}</a
+                    >
+                    <div
+                      class="ps-product__desc"
+                      *ngIf="getAvgRatesp(item.productId) > 0"
+                    >
+                      <ngb-rating
+                        [rate]="getAvgRatesp(item.productId)"
+                        [starTemplate]="t"
+                        [readonly]="true"
+                        [max]="5"
+                        title="{{ getAvgRatesp(item.productId) }} sao"
+                      >
+                      </ngb-rating>
+                      ({{ countRate }} đánh giá)
+                    </div>
+                    <p class="ps-product__price sale">
+                      <del *ngIf="item.discount != 0">{{
+                        item.price | currency : "VND"
+                      }}</del>
+                      {{
+                        item.price * (1 - item.discount / 100)
+                          | currency : "VND"
+                      }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ngx-slick-carousel>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- star -->
+<ng-template #t let-fill="fill">
+  <span class="star" [class.full]="fill === 100" style="font-size: 90%">
+    <span class="half" [style.width.%]="fill">
+      <i class="fa fa-star"></i>
+    </span>
+    <i class="fa fa-star"></i>
+  </span>
+</ng-template>

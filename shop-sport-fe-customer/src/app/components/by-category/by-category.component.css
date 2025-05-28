@@ -1,0 +1,83 @@
+.star {
+  position: relative;
+  display: inline-block;
+  font-size: 5rem;
+  color: #d3d3d3;
+}
+
+.full {
+  color: #007bff;
+}
+
+.half {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  color: #007bff;
+}
+
+.my-page /deep/ .ngx-pagination {
+  margin: auto !important;
+}
+
+.my-page /deep/ .ngx-pagination .current {
+  padding: 0px;
+}
+
+.my-page /deep/ .ngx-pagination .current span {
+  padding: 7px 16px !important;
+  background-color: #007bff !important;
+  border-radius: 10%;
+}
+
+.my-page /deep/ .ngx-pagination li {
+  margin: 4px;
+}
+
+.my-page /deep/ .ngx-pagination li a {
+  padding: 7px 16px !important;
+  background-color: rgba(212, 212, 212, 0.233);
+  border-radius: 10%;
+}
+
+.latest-product__item {
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: block;
+}
+
+.latest-product__item__pic {
+  float: left;
+  margin-right: 5px;
+}
+
+.latest-product__item__pic img {
+  height: 100px;
+  width: 100px;
+}
+
+.latest-product__item__text {
+  overflow: hidden;
+  margin-top: -15px;
+ 
+
+
+}
+
+.nameproduct {
+  color: #06c;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.nameproduct:hover {
+  color: #007bff;
+}
+
+.latest-product__item__text  del {
+  color:  #666;
+  font-size: 14px;
+}
+/* .latest-product__item__text p {
+  color:  #f30;
+  font-size: 14px;
+} */

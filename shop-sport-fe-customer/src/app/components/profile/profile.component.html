@@ -1,0 +1,218 @@
+<main class="ps-page--my-account">
+  <div class="ps-breadcrumb">
+    <div class="ps-container">
+      <ul class="breadcrumb">
+        <li><a [routerLink]="['/home']">Trang chủ</a></li>
+        <li><a [routerLink]="['/profile']">Tài khoản</a></li>
+        <li>Tài khoản của tôi</li>
+      </ul>
+    </div>
+  </div>
+  <section class="ps-section--account">
+    <div class="container" style="font-size: 14px">
+      <div class="row" style="padding: 15px">
+        <div class="col-lg-3" style="background-color: #f8f9fa; height: 300px">
+          <div class="ps-section__left" style="margin-top: 20px">
+            <aside class="ps-widget--account-dashboard">
+              <div class="ps-widget__header" style="margin-left: 15px">
+                <img [src]="customer.image" alt="" />
+                <figure style="margin-top: -25px; font-size: 14px">
+                  <p>
+                    Tên khách hàng: <span style="color: rgb(246, 8, 32); font-weight: 400;">{{ customer.name }}</span>
+                  </p>
+                  <span
+                    >Tham gia: {{
+                      customer.registerDate | date : "dd-MM-yyy" 
+                      
+                    }}</span
+                  >
+                  <span
+                    ><a [routerLink]="['/profile']">
+                      <!-- <p style="font-weight: normal; margin-top: 3px; color: gray; font-size: 14px;">
+                                            <i class="icon-pen">
+                                            </i>Sửa Hồ Sơ
+                                        </p> -->
+                    </a>
+                  </span>
+                </figure>
+              </div>
+              <div class="ps-widget__content">
+                <ul>
+                  <li>
+                    <a [routerLink]="['/profile']"
+                      ><i class="icon-user"></i>Tài khoản của tôi</a
+                    >
+                  </li>
+                  <li>
+                    <a [routerLink]="['/bill']"
+                      ><i class="icon-cart"></i>Đơn mua
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="ps-section__right">
+            <div class="ps-section--account-setting">
+              <div class="ps-section__header">
+                <h3>HỒ SƠ CỦA TÔI</h3>
+                <p>(Hãy bảo mật thông tin cá nhân)</p>
+              </div>
+              <div class="profile">
+                <form [formGroup]="postForm" class="row">
+                  <input type="hidden" formControlName="userId" />
+                  <input type="hidden" formControlName="status" />
+                  <input type="hidden" formControlName="password" />
+                  <input type="hidden" formControlName="token" />
+                  <div class="col-6">
+                    <div class="form-group col-12">
+                      <label for="name">Tên khách hàng</label>
+                      <input
+                        type="text"
+                        id="name"
+                        [ngClass]="{
+                          'is-invalid':
+                            postForm.get('name')?.touched &&
+                            postForm.get('name')?.invalid
+                        }"
+                        class="form-control"
+                        formControlName="name"
+                      />
+                      <small class="invalid-feedback">Tên không hợp lệ</small>
+                    </div>
+                    <div class="form-group col-12">
+                      <label for="email">Email</label>
+                      <div class="input-group">
+                        <input
+                          type="email"
+                          email
+                          id="price"
+                          [ngClass]="{
+                            'is-invalid':
+                              postForm.get('email')?.touched &&
+                              postForm.get('email')?.invalid
+                          }"
+                          class="form-control"
+                          formControlName="email"
+                        />
+                        <small class="invalid-feedback"
+                          >Email không hợp lệ</small
+                        >
+                      </div>
+                    </div>
+                    <div class="form-group col-12">
+                      <label for="address">Địa chỉ</label>
+                      <div class="input-group">
+                        <input
+                          type="text"
+                          id="address"
+                          [ngClass]="{
+                            'is-invalid':
+                              postForm.get('address')?.touched &&
+                              postForm.get('address')?.invalid
+                          }"
+                          class="form-control"
+                          formControlName="address"
+                        />
+                        <small class="invalid-feedback"
+                          >Địa chỉ không hợp lệ</small
+                        >
+                      </div>
+                    </div>
+                    <div class="form-group col-12">
+                      <label for="phone">Số điện thoại</label>
+                      <div class="input-group">
+                        <input
+                          type="text"
+                          id="phone"
+                          [ngClass]="{
+                            'is-invalid':
+                              postForm.get('phone')?.touched &&
+                              postForm.get('phone')?.invalid
+                          }"
+                          class="form-control"
+                          formControlName="phone"
+                        />
+                        <small class="invalid-feedback"
+                          >Số điện thoại không hợp lệ</small
+                        >
+                      </div>
+                    </div>
+                    <div class="form-group col-12">
+                      <label for="exampleFormControlSelect1">Giới tính</label>
+                      <select
+                        class="form-control"
+                        id="gender"
+                        name="gender"
+                        formControlName="gender"
+                      >
+                        <option value="true">Nam</option>
+                        <option value="false">Nữ</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="col-12 text-center">
+                      <h3>Ảnh đại diện</h3>
+                      <img
+                        [src]="image"
+                        style="width: 150px; height: 150px; object-fit: cover"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} mt-3 mb-3"
+                        alt="Ảnh đại diện"
+                      />
+                      <div class="custom-file" style="width: 80%">
+                        <input
+                          type="file"
+                          class="custom-file-input"
+                          id="customFile"
+                          (change)="onFileSelect($event)"
+                        />
+                        <label class="custom-file-label" for="customFile"
+                          >Chọn ảnh</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <button
+                    class="ps-btn"
+                    color="primary"
+                    [disabled]="postForm?.invalid"
+                    style="width: 200px; margin-left: 120px"
+                    (click)="update()"
+                  >
+                    Chỉnh sửa
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <div class="ps-newsletter">
+        <div class="container">
+            <form class="ps-form--newsletter">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <div class="ps-form__left">
+                            <h3>Bản tin</h3>
+                            <p>Đăng ký để nhận thông tin về sản phẩm và phiếu giảm giá</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <div class="ps-form__right">
+                            <div class="form-group--nest">
+                                <input class="form-control" type="email" placeholder="Địa chỉ Email">
+                                <button class="ps-btn">Gửi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div> -->
+</main>

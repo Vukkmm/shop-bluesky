@@ -1,0 +1,18 @@
+<p>static-order works!</p>
+<div class="row mt-4">
+
+    <div class="col-2" >
+        <h2 style="font-size: 18px; text-align: center;">Thống kê doanh thu theo năm</h2>
+        <ul *ngFor="let item of countYears | orderBy : 'item' : true">
+            <li><span title='Xem doanh thu của năm {{item}}' style="cursor: pointer; color: rgb(37, 111, 177);"
+                    (click)="setYear(item)">Năm {{item}}</span>: <span
+                    style="font-weight: 500;">{{getRevenueYear(item)|currency:'VND'}}</span>
+            </li>
+        </ul>
+    </div>
+    <div class="col-10">
+        <div id="divChart" style="width: 95%; margin-left: 2%;">
+            <canvas id="chart"></canvas>
+        </div>
+    </div>
+</div>
