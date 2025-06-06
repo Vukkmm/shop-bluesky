@@ -1,0 +1,6 @@
+
+package com.utc.nguyenvanvu.common;
+
+public enum ERole {
+	ROLE_USER, ROLE_ADMIN
+}

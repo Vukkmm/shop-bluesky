@@ -1,0 +1,449 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Trang-1" id="2Ku_izXABT5L-zEd1rlF">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-1" value="&lt;b&gt;&lt;u&gt;: QuanLyDanhMucUI&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="339" y="80" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-2" value="&lt;b&gt;&lt;u&gt;:&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;QuanLyDanhMuc&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;Controller&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="519" y="75" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-3" value="&lt;b&gt;&lt;u&gt;: Categories&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="789" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="179" y="40" width="20" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-5" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="90" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-7" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="230" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-36" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="280" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-38" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="310" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-51" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="470" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-54" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="500" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-66" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="620" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-68" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="650" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-80" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="790" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-82" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="820" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-87" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-4">
+          <mxGeometry x="5" y="880" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="414" y="40" width="50" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-9" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-10" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="150" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-13" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="193" width="10" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-39" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-46" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="390" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-49" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="430" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-52" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="470" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-55" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="500" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-69" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="650" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-83" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry x="20" y="820" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-14" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="829" y="40" width="40" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-30" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-14">
+          <mxGeometry x="15" y="130" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-43" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-14">
+          <mxGeometry x="15" y="350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-60" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-14">
+          <mxGeometry x="15" y="545" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-73" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-14">
+          <mxGeometry x="15" y="690" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-91" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-14">
+          <mxGeometry x="15" y="920" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-102" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-14">
+          <mxGeometry x="15" y="1080" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-16" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="629" y="40" width="40" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-29" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-16">
+          <mxGeometry x="15" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-41" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-16">
+          <mxGeometry x="15" y="330" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-58" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-16">
+          <mxGeometry x="15" y="520" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-71" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-16">
+          <mxGeometry x="15" y="670" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-89" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-16">
+          <mxGeometry x="15" y="900" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-100" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="egmjmJV_3v02_Cs4_VrQ-16">
+          <mxGeometry x="15" y="1060" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-18" value="&lt;b&gt;&lt;u&gt;: NguoiQuanTri&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="124" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-19" value="1. kich nut &quot;Danh muc sna pham&quot;()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1" target="egmjmJV_3v02_Cs4_VrQ-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="189" y="130" as="sourcePoint" />
+            <mxPoint x="269" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-25" value="&lt;b&gt;5. hien thi danh sach danh muc()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="294" y="203" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="444.97333333333336" y="234.66999999999985" as="sourcePoint" />
+            <mxPoint x="443" y="252" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="493.3333333333335" y="234" />
+              <mxPoint x="493.3333333333335" y="252" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-27" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1" source="egmjmJV_3v02_Cs4_VrQ-13" target="egmjmJV_3v02_Cs4_VrQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-28" value="2. lay thong tin danh muc()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="444" y="150" as="sourcePoint" />
+            <mxPoint x="644" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-31" value="3. getCategories()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="655" y="170" as="sourcePoint" />
+            <mxPoint x="845" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-32" value="4. return ket qua" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1" source="egmjmJV_3v02_Cs4_VrQ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="190" as="sourcePoint" />
+            <mxPoint x="441" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-33" value="6. kich nut &quot;Them danh muc&quot;()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="186" y="270" as="sourcePoint" />
+            <mxPoint x="436" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-34" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="444.97333333333336" y="290.66999999999985" as="sourcePoint" />
+            <mxPoint x="443" y="308" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="493.3333333333335" y="290" />
+              <mxPoint x="493.3333333333335" y="308" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-35" value="&lt;b&gt;7. hien thi form danh muc()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="414" y="263" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-37" value="8. nhap thong tin moi&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="189" y="320" as="sourcePoint" />
+            <mxPoint x="439" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-40" value="9. kich nut &quot;Them&quot;()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="188" y="350" as="sourcePoint" />
+            <mxPoint x="438" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-42" value="10. Them danh muc()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="444" y="370" as="sourcePoint" />
+            <mxPoint x="644" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-44" value="11. createCategories()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="653" y="390" as="sourcePoint" />
+            <mxPoint x="843" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-45" value="12. getCtegories()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="655" y="410" as="sourcePoint" />
+            <mxPoint x="845" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-47" value="13. return ket qua" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="647" y="430" as="sourcePoint" />
+            <mxPoint x="439" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-48" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="444.97333333333336" y="470.66999999999985" as="sourcePoint" />
+            <mxPoint x="443" y="488" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="493.3333333333335" y="470" />
+              <mxPoint x="493.3333333333335" y="488" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-50" value="&lt;b&gt;14. hien thi lai danh sach danh muc()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="304" y="447" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-53" value="15. chon mot dong de sua" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="189" y="510" as="sourcePoint" />
+            <mxPoint x="439" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-56" value="16. kich vao nut &quot;Sua&quot;()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="189" y="540" as="sourcePoint" />
+            <mxPoint x="439" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-59" value="17. lay thong tin danh muc duoc chon()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="443" y="560" as="sourcePoint" />
+            <mxPoint x="643" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-61" value="18. getCategoriesByCategoryId()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="654" y="584" as="sourcePoint" />
+            <mxPoint x="844" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-62" value="19. return ket qua" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649" y="600" as="sourcePoint" />
+            <mxPoint x="441" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-63" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="443.97333333333336" y="626.6699999999998" as="sourcePoint" />
+            <mxPoint x="442" y="644" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="492.3333333333335" y="626" />
+              <mxPoint x="492.3333333333335" y="644" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-64" value="&lt;b&gt;20. hien thi thong tin danh muc()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="329" y="600" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-67" value="21. nhap thong tin moi()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="187" y="660" as="sourcePoint" />
+            <mxPoint x="437" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-70" value="22. kich vao nut &quot;Cap nhat&quot;()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="189" y="690" as="sourcePoint" />
+            <mxPoint x="439" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-72" value="23. sua danh muc()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="444" y="710" as="sourcePoint" />
+            <mxPoint x="644" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-74" value="24. updateCategoriesByCategoryId()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="656" y="730" as="sourcePoint" />
+            <mxPoint x="846" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-75" value="25. getCtegories()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="654" y="750" as="sourcePoint" />
+            <mxPoint x="844" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-77" value="26. return ket qua" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="648" y="770" as="sourcePoint" />
+            <mxPoint x="440" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-78" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="443.97333333333336" y="796.6699999999998" as="sourcePoint" />
+            <mxPoint x="442" y="814" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="492.3333333333335" y="796" />
+              <mxPoint x="492.3333333333335" y="814" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-79" value="&lt;b&gt;27. hien thi lai man hinh danh muc sau khi cap nhat()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="269" y="770" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-81" value="28. chon mot dong de xoa" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="189" y="830" as="sourcePoint" />
+            <mxPoint x="439" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-84" value="29. kich vao bieu tuong thung rac()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="189" y="860" as="sourcePoint" />
+            <mxPoint x="439" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-85" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="444.97333333333336" y="891.6699999999998" as="sourcePoint" />
+            <mxPoint x="443" y="909" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="493.3333333333335" y="891" />
+              <mxPoint x="493.3333333333335" y="909" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-86" value="&lt;b&gt;30. hien thi thong bao xac nhan xoa()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="339" y="870" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-88" value="31. kich nut &quot;Xoa&quot;()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="188" y="920" as="sourcePoint" />
+            <mxPoint x="438" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-90" value="32. xoa danh muc()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="444" y="940" as="sourcePoint" />
+            <mxPoint x="644" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-92" value="33. deleteCategoriesByCategoryId()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="657" y="960" as="sourcePoint" />
+            <mxPoint x="847" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-93" value="34. getCtegories()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="654" y="980" as="sourcePoint" />
+            <mxPoint x="844" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-95" value="35. return ket qua" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="647" y="1000" as="sourcePoint" />
+            <mxPoint x="439" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-96" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="444.97333333333336" y="1027.6699999999998" as="sourcePoint" />
+            <mxPoint x="443" y="1045" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="493.3333333333335" y="1027" />
+              <mxPoint x="493.3333333333335" y="1045" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-97" value="&lt;b&gt;36. hien thi danh sach danh muc sau khi xoa()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="299" y="1000" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-98" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22dispatch%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3Bcurved%3D0%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%2295%22%20y%3D%22120%22%20as%3D%22sourcePoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22180%22%20y%3D%22120%22%2F%3E%3C%2FArray%3E%3CmxPoint%20x%3D%22295%22%20y%3D%22120%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="189" y="1080" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-99" value="37. nhap tu khoa can tim&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="197" y="1080" as="sourcePoint" />
+            <mxPoint x="437" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-101" value="38. lay thong tin danh muc can tim()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="444" y="1100" as="sourcePoint" />
+            <mxPoint x="644" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-103" value="39.getCategoriesByCategoryName()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="654" y="1120" as="sourcePoint" />
+            <mxPoint x="844" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-105" value="40. return ket qua" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="653" y="1139" as="sourcePoint" />
+            <mxPoint x="445" y="1139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-106" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=1.089;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="443.97333333333336" y="1167.6699999999998" as="sourcePoint" />
+            <mxPoint x="442" y="1185" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="492.3333333333335" y="1167" />
+              <mxPoint x="492.3333333333335" y="1185" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egmjmJV_3v02_Cs4_VrQ-107" value="&lt;b&gt;41. hien thi danh muc can tim kiem()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="324" y="1139" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

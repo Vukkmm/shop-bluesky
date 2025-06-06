@@ -1,0 +1,19 @@
+.star {
+    position: relative;
+    display: inline-block;
+    font-size: 5rem;
+    color: #d3d3d3;
+  }
+  .full {
+    color: #007bff;
+  }
+  .half {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    color: #007bff;
+  }
+  .kt{
+    margin-left: 100px;
+    margin-top: -100px;
+  }

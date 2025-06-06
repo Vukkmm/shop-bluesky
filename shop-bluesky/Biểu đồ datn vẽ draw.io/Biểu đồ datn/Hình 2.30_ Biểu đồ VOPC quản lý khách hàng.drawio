@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Trang-1" id="99rEH_-nAz511fXA9DVw">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O_9r_853yqhuSzNFsw5C-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;QuanLyKhachHangUI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;&quot; dir=&quot;auto&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;+ kich muc &quot;Khach hang&quot;()&lt;br/&gt;+ hien thi danh sach khach hang()&lt;br/&gt;+ kich nut &quot;Them khach hang&quot;()&lt;br/&gt;+ hien thi form them khach hang()&lt;br/&gt;+ kich nut &quot;Them&quot;()&lt;br/&gt;+ hien thi danh sach sau khi them()&lt;br/&gt;+ kich bieu tuong thung rac()&lt;br/&gt;+ hien thi thong bao xac nhan xoa()&lt;br/&gt;+ kich nut &quot;Xoa&quot;()&lt;br/&gt;+ hien thi danh sach sau khi xoa()&lt;br/&gt;+ hien thi thong tin khach hang can tim()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;QuanLyKhachHang&lt;/b&gt;&lt;b&gt;Controller&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;div&gt;+ lay thong tin khach hang()&lt;/div&gt;&lt;div&gt;+ them khach hang()&lt;/div&gt;&lt;div&gt;+ xoa khach hang()&lt;/div&gt;&lt;div&gt;+ lay thong tin khach hang can tim()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="554" y="70" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-3" value="&lt;b&gt;NguoiQuanTri&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;textShadow=0;labelBorderColor=none;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="30" y="95" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-4" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="121" as="sourcePoint" />
+            <mxPoint x="190" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-5" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="520" y="95" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-6" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.583;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#E07A5F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674.0000000000001" y="190" as="sourcePoint" />
+            <mxPoint x="674" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;entity&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;&quot; dir=&quot;auto&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;+ email&lt;br&gt;+ password&lt;br&gt;+ userId&lt;br&gt;+ address&lt;br&gt;+ gender&lt;br&gt;+ image&lt;br&gt;+ phone&lt;br&gt;+ registerDate&lt;br&gt;+ status&lt;br&gt;+ token&lt;br&gt;+ name&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;+ getEmail()&lt;/div&gt;&lt;div&gt;+ setEmail()&lt;/div&gt;&lt;div&gt;+ getPassword()&lt;/div&gt;&lt;div&gt;+ setPassword()&lt;/div&gt;&lt;div&gt;+ getUserId()&lt;/div&gt;&lt;div&gt;+ setUserId()&lt;/div&gt;&lt;div&gt;+ getAddress()&lt;/div&gt;&lt;div&gt;+ setAddress()&lt;/div&gt;&lt;div&gt;+ getGender()&lt;/div&gt;&lt;div&gt;+ setGender()&lt;/div&gt;&lt;div&gt;+ getPhone()&lt;/div&gt;&lt;div&gt;+ setPhone()&lt;/div&gt;&lt;div&gt;+ getImage()&lt;/div&gt;&lt;div&gt;+ setImage()&lt;/div&gt;&lt;div&gt;+ getRegisterDate()&lt;/div&gt;&lt;div&gt;+ setRegisterDate()&lt;/div&gt;&lt;div&gt;+ getStatus()&lt;/div&gt;&lt;div&gt;+ setStatus()&lt;/div&gt;&lt;div&gt;+ getToken()&lt;/div&gt;&lt;div&gt;+ setToken()&lt;/div&gt;&lt;div&gt;+ getName()&lt;/div&gt;&lt;div&gt;+ setName()&lt;/div&gt;&lt;div&gt;+ getUsers()&lt;/div&gt;&lt;div&gt;+ deleteUsersByUserId()&lt;/div&gt;&lt;div&gt;+ getUsersByName()&lt;/div&gt;&lt;div&gt;+ updateUsersByUserId()&lt;/div&gt;&lt;div&gt;+ getUsersByUserId()&lt;/div&gt;&lt;div&gt;+ createUsers()&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;p style=&quot;white-space: pre-wrap;&quot; dir=&quot;auto&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="589" y="250" width="195" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-8" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="670" y="186" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-10" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="121" as="sourcePoint" />
+            <mxPoint x="550" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-11" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="450" y="95" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O_9r_853yqhuSzNFsw5C-13" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="671.5" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
